@@ -26,6 +26,19 @@
     padding: 18px 35px ;
     border-radius: 5px;
 }
+.section-tital{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 /* header */
 header{
     background-image: url('./images/developer.png'), url('./images/header_bg.png');
@@ -86,4 +99,20 @@ nav li a {
 .banner-profile-picture{
     width: 580px;
     
+}
+
+/* main */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+/* about */
+
+
+.about{
+        border-radius: 10px;
+        padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
 }
